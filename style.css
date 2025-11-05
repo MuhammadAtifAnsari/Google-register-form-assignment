@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+   background-color: bisque;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.parent{
+    height: 400px;
+    width: 1040px;
+    
+}
+
+.box1{
+    background-color: white;
+    border-radius:25px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.content-box{
+    width: 50%;
+    /* margin-top: 20px; */
+    margin-left: 40px;
+    font-size: 20px;
+    
+}
+
+.input-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    padding-bottom: 50px;  
+       
+}
+
+.input-box > input{
+    width: 70%; 
+    margin-right: 40px;
+    padding: 3%;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.input-box  button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 40px;
+    background-color: rgb(42, 42, 253);
+    color: white;
+}
+
+span{
+    display: flex;
+    justify-content:baseline ;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+     
+}
+
+img{
+    margin-top: 35px;
+}
+
+.title{
+    font-size: 2em;
+}
+
+
+@media screen and (max-width:768px) {
+    .box1{
+        flex-direction: column;
+        
+    }
+    .input-box{
+        width: 100%;
+    }
+    .content-box{
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .input-box > input{
+        width:88%;
+        }
+    .box2{
+        margin-top: 20%;
+    }
+}
