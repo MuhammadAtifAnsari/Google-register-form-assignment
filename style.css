@@ -2,11 +2,11 @@
 body{
     margin: 0;
     padding: 0;
-    
+
 }
 
 .container{
-   background-color: beige;
+   background-color: rgb(235, 235, 229);
    height: 100vh;
    width: 100vw;
    display: flex;
@@ -30,7 +30,7 @@ body{
 
 .content-box{
     width: 50%;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     margin-left: 40px;
     font-size: 20px;
     
@@ -94,10 +94,16 @@ img{
 @media screen and (max-width:768px) {
     .box1{
         flex-direction: column;
-        /* height: 100%;   */
+        height: 100%;  
     }
+
+    .parent{
+        height: 90%;
+    }
+
     .input-box{
-        width: 100%;
+        width: 80%;
+        margin-left: 6%;
     }
     .content-box{
         padding-bottom: 50px;
@@ -105,8 +111,7 @@ img{
     }
     .input-box > input{
         width:88%;
-        }
-    .box2{
-        margin-top: 20%;
     }
+    .box2{
+        padding: 0%;
 }
